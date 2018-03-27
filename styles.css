@@ -1,0 +1,92 @@
+* {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+input, input:focus {
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+#btn {
+  display: flex;
+  align-self: center;
+}
+
+#color-btn {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.3), 0 6px 16px 0 rgba(0,0,0,0.3);
+  width: 100px;
+  height: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+#color-btn:active {
+  box-shadow: 0 0px 0;
+}
+
+#reset {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+
+#reset-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  width: 60px;
+  font-size: 0.5rem;
+}
+
+#reset-btn:hover {
+  background-color: #eaeaea;
+}
+#source-url {
+  color: #000000;
+  font-size: 0.5rem;
+}
+
+#source-url:hover {
+  opacity: 0.5;
+}
