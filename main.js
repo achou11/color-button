@@ -7,18 +7,20 @@ function changeByKey(event) {
   // 13 = enter key
   // 27 = esc key
   if (event.keyCode === 13) {
-    changeColor()
+    changeColor(event)
   } else if (event.keyCode === 27) {
-    resetColor()
+    resetColor(event)
   }
 }
 
-function changeColor() {
+function changeColor(e) {
+  e.preventDefault()
   resetButton.style.borderColor = colorInput.value
   colorButton.style.backgroundColor = colorInput.value
 }
 
-function resetColor() {
+function resetColor(e) {
+  e.preventDefault()
   colorInput.value = ""
   colorButton.style.backgroundColor = "#ffffff"
   resetButton.style.borderColor = "#000000"
