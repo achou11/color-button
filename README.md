@@ -1,3 +1,5 @@
+![Dat](https://dat-badge.glitch.me/e5fc793cd8a7fba9339d23b9a42670bcded01344bfd9a6fbb5fe43c9711d8fd4/badge.svg)
+
 # Color Button
 
 It's pretty simple:
